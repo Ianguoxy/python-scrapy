@@ -1,0 +1,48 @@
+1.递归算法实现斐波那契数列：1,1,2,3,5,8,13,21,34
+f(n) = f(n-1)+f(n-2) n>=2
+       1             n >= 0 n为自然数
+       
+2.使用递归实现从一个List返回其中的最大值和最小值:
+def minMax(L,start,end):
+    """
+    返回一个元组，记录最大值和最小值
+    
+开始爬虫的准备：
+    
+1.robots君子协议:(robots.txt)
+eg:https://www.mafengwo.cn/robots.txt
+
+2.网站连接地图:(sitemapIndex.xml /  sitemapIndex.html ): 
+2.1.生成工具:http://www.sitemap-xml.org/
+
+eg:https://www.mafengwo.cn/sitemapIndex.xml
+
+3.查看网站大小：
+3.1 www.baidu.com   --> site:网站地址
+eg:
+---> site:www.zhihu.com  
+结果:该网站共有 2亿2764万 个网页被百度收录
+
+
+4.查看网站技术架构：(builtwith)
+
+Note:Anaconda3如何安装包：
+windows: 打开anaconda prompt
+
+> conda install builtwith  (从anaconda已有的包安装)
+> pip install builtwith   (从网站上包安装)
+
+
+import builtwith 
+builtwith.parse("http://www.sina.com.cn")
+
+5.寻找网站的所有者
+安装:python-whois   
+pip install python-whois
+
+import python-whois as whois
+whois.whois("http://www.sina.com.cn")
+
+第一天下午1:45:00
+
+深度优先
