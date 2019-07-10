@@ -37,4 +37,4 @@ print(Fab(3))
 
 print(builtwith.parse("http://www.sina.com.cn"))
 
-print(whois.whois("http://www.sina.com.cn"))
+print(whois.whois("http://www.baidu.com"))
